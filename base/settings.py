@@ -4,6 +4,7 @@ SECRET_KEY = '-4&_mftbh+92g-c%)6hewl=7a0uo8$q(45i$-ih@_xgh@k7k9_'
 DEBUG = True
 
 ALLOWED_HOSTS = ['*']
+CORS_ORIGIN_ALLOW_ALL = True
 
 
 INSTALLED_APPS = [
