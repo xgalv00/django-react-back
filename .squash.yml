@@ -1,0 +1,4 @@
+deployments:
+  default:
+    subdomain_port_mapping:
+      - api:8000
