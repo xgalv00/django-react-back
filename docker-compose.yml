@@ -1,7 +1,7 @@
 version: '3.2'
 services:
   frontend:
-    image: ${SQUASH_REGISTRY}:django-react-todo-front-default-{SQUASH_MATCH_BRANCH}
+    image: ${SQUASH_REGISTRY}:django-react-front-default-{SQUASH_MATCH_BRANCH}
     ports:
       - 80:3000
 
