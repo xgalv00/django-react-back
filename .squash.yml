@@ -1,4 +1,5 @@
 deployments:
   default:
+    allow_cors: false
     subdomain_port_mapping:
       - api:8000
