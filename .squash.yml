@@ -1,5 +1,8 @@
 deployments:
   default:
     allow_cors: true
+    success_response_check:
+      urls:
+          - /admin/,/admin
     subdomain_port_mapping:
       - api:8000
