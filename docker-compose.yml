@@ -1,12 +1,8 @@
 version: '3.2'
 services:
-  frontend:
-    image: ${SQUASH_REGISTRY}:django-react-front-default-{SQUASH_MATCH_BRANCH}
-    ports:
-      - 80:3000
 
   backend:
     build: ./
     command: bash ./run_server.sh
     ports:
-      - 8000:8000
+      - 80:8000
