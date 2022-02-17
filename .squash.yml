@@ -6,3 +6,4 @@ deployments:
           - /admin/,/admin
     subdomain_port_mapping:
       - api:8000
+      - test:8000
